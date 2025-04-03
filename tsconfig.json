@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@types/*": ["./*"]
+    },
+    "module": "commonjs",
+    "target": "es5",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+  },
+  "include": ["./*"]
+}
